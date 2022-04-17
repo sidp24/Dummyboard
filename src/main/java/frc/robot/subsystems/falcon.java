@@ -6,7 +6,7 @@ import com.ctre.phoenix.motorcontrol.can.TalonFX;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class falcon extends SubsystemBase{
-    private final TalonFX falco = new TalonFX(FALCON_ID);
+    private final TalonFX falco = new TalonFX(FALCO_ID);
 
     public void raise() {
         falco.set(ControlMode.PercentOutput, -FALCON_SPEED);
