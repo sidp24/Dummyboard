@@ -12,7 +12,7 @@ public class cim extends SubsystemBase {
     private VictorSPX Cmotor = new VictorSPX(CIM_ID);
 
     public cim() {
-
+        this.Cmotor.configFactoryDefault();
     }
 
     public void raise() {

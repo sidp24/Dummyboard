@@ -24,10 +24,9 @@ public class RobotContainer {
   private final falcon intake = new falcon();
 
   final XboxController xbox = new XboxController(XBOX_CTRL_PORT);
-  final Joystick logi = new Joystick(LOGIJOY_PORT);
 
   public RobotContainer() {
-
+    configureButtonBindings();
   }
 
   private void configureButtonBindings() {

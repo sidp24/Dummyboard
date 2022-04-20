@@ -32,5 +32,4 @@ public final class Constants {
 
     // controllers
     public static final int XBOX_CTRL_PORT = 0;
-    public static final int LOGIJOY_PORT = 0;
 }
